@@ -1,27 +1,23 @@
-# AngularServices
+# Projeto Angular com Services
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.3.
+Este é um projeto simples desenvolvido em Angular, com o objetivo de demonstrar o uso de **services** e consumo de **APIs**. 
 
-## Development server
+## Descrição
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Neste projeto, foi criado um aplicativo Angular que utiliza **services** para interagir com uma API externa. A API utilizada é a [Dragon Ball API](https://dragonball-api.com), que fornece dados relacionados ao universo Dragon Ball.
 
-## Code scaffolding
+O principal objetivo deste projeto é aprender a integrar serviços em Angular e consumir uma API REST para buscar e exibir dados. O projeto inclui a implementação básica de um serviço Angular que faz chamadas HTTP para a API e utiliza os dados retornados para renderizar informações na interface do usuário.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Funcionalidades
 
-## Build
+- **Consumo de API**: Utiliza a Dragon Ball API para buscar informações sobre personagens.
+- **Serviços Angular**: Implementa um serviço Angular para gerenciar chamadas HTTP e fornecer dados aos componentes.
+- **Exibição de Dados**: Mostra dados de personagens em uma interface simples e interativa.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Tecnologias Utilizadas
 
-## Running unit tests
+- **Angular**: Framework para criar aplicações web SPA.
+- **Angular Services**: Para comunicação com a API e gerenciamento de dados.
+- **Dragon Ball API**: API externa utilizada para fornecer dados dos personagens.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+![image](https://github.com/user-attachments/assets/c0714122-0114-475e-9fcc-91838a9317bf)
